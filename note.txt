@@ -1,0 +1,10 @@
+To install virtual env
+-pip install virtualenv
+-virtualenv env
+-env\Scripts\activate
+-pip install "fastapi[all]"
+
+
+To run --------->
+uvicorn main:app
+uvicorn main:app --reload
