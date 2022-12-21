@@ -9,6 +9,9 @@ To run --------->
 uvicorn main:app
 uvicorn main:app --reload
 
+If in our app:
+uvicorn app.main:app --reload
+
 @app.get("/")#get --< method and path = (/)
 async def root():
     return{"message":"welcome to my api"}
